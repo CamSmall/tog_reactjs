@@ -1,11 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Menu from './Menu';
 
 class App extends Component {
-    render() {
-        return (
-            <h1>Test</h1>
-        )
-    }
+  render() {
+    return (
+      <div className='container'>
+        <Menu />
+        <h1>Title</h1>
+        <p>Content</p>
+      </div>
+    );
+  }
 }
 
-export default App
+export default App;
