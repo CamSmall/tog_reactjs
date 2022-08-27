@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react';
 
 const TableHeader = () => {
-  return <theader />
-}
+  return <theader />;
+};
 
 const TableBody = (props) => {
   const rows = props.characterData.map((row, index) => {
@@ -14,13 +14,13 @@ const TableBody = (props) => {
           <button onClick={() => props.removeCharacter(index)}>Delete</button>
         </td>
       </tr>
-    )
-  })
-  return <tbody>{rows}</tbody>
-}
+    );
+  });
+  return <tbody>{rows}</tbody>;
+};
 
 const Table = (props) => {
-  const { characterData, removeCharacter } = props
+  const { characterData, removeCharacter } = props;
 
   return (
     <table>
@@ -30,7 +30,7 @@ const Table = (props) => {
         removeCharacter={removeCharacter}
       />
     </table>
-  )
-}
+  );
+};
 
-export default Table
+export default Table;
