@@ -4,10 +4,16 @@ import Menu from './Menu';
 class App extends Component {
   render() {
     return (
-      <div className='container'>
+      <div className='generic-container'>
         <Menu />
-        <h1>Title</h1>
-        <p>Content</p>
+        <div class='container'>
+          <div class='section'>
+            <h1 class='center'>You've entered the grotto.</h1>
+          </div>
+          <div class='section'>
+            <p>Content</p>
+          </div>
+        </div>
       </div>
     );
   }
