@@ -7,7 +7,7 @@ const MenuBar = () => {
     <div className='navbar-fixed'>
       <nav className='black'>
         <div className='nav-wraper'>
-          <a href='https://localhost:3000' className='brand-logo center'>
+          <a href='#' className='brand-logo center'>
             <img src={logo} alt='The Obsidian Grotto'></img>
           </a>
           <ul id='nav-mobile' className='right hide-on-med-and-down'>

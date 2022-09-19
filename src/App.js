@@ -7,12 +7,13 @@ class App extends Component {
     return (
       <div className='content-wrapper'>
         <Menu />
-        <div class='section'></div>
-        <div class='container'>
-          <div class='section'>
-            <h1 class='center'>You have entered the Obsidian Grotto.</h1>
+        <div className='section'></div>
+        <div className='container'>
+          <div className='section'>
+            <h1 className='center'>You have entered the Obsidian Grotto.</h1>
           </div>
-          <div class='section'>
+          <div className='divider'></div>
+          <div className='section'>
             <CreativeContent />
           </div>
         </div>
