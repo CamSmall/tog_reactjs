@@ -4,13 +4,13 @@ import logo from './media/ObsidianGrottoLogo.png';
 
 const MenuBar = () => {
   return (
-    <div id='navbar-wrapper'>
-      <nav class='black'>
-        <div class='nav-wraper'>
-          <a href='https://localhost:3000' class='brand-logo center'>
+    <div id='navbar-fixed'>
+      <nav className='black'>
+        <div className='nav-wraper'>
+          <a href='https://localhost:3000' className='brand-logo center'>
             <img src={logo} alt='The Obsidian Grotto'></img>
           </a>
-          <ul id='nav-mobile' class='right hide-on-med-and-down'>
+          <ul id='nav-mobile' className='right hide-on-med-and-down'>
             <li>
               <a href='#'>Creative Content</a>
             </li>
@@ -20,6 +20,7 @@ const MenuBar = () => {
           </ul>
         </div>
       </nav>
+      <ul className='dropdown-content' id='creative-dropdown'></ul>
     </div>
   );
 };
