@@ -6,9 +6,10 @@ class App extends Component {
     return (
       <div className='generic-container'>
         <Menu />
+        <div class='section'></div>
         <div class='container'>
           <div class='section'>
-            <h1 class='center'>You've entered the grotto.</h1>
+            <h1 class='center'>You have entered the Obsidian Grotto.</h1>
           </div>
           <div class='section'>
             <p>Content</p>
