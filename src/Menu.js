@@ -4,7 +4,7 @@ import logo from './media/ObsidianGrottoLogo.png';
 
 const MenuBar = () => {
   return (
-    <div id='navbar-fixed'>
+    <div className='navbar-fixed'>
       <nav className='black'>
         <div className='nav-wraper'>
           <a href='https://localhost:3000' className='brand-logo center'>
@@ -12,7 +12,7 @@ const MenuBar = () => {
           </a>
           <ul id='nav-mobile' className='right hide-on-med-and-down'>
             <li>
-              <a href='#'>Creative Content</a>
+              <a href='#creative-wrapper'>Creative Content</a>
             </li>
             <li>
               <a href='#'>Professional Resources</a>
@@ -20,7 +20,6 @@ const MenuBar = () => {
           </ul>
         </div>
       </nav>
-      <ul className='dropdown-content' id='creative-dropdown'></ul>
     </div>
   );
 };
