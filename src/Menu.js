@@ -15,7 +15,7 @@ const MenuBar = () => {
               <a href='#creative-wrapper'>Creative Content</a>
             </li>
             <li>
-              <a href='#'>Professional Resources</a>
+              <a href='#professional-wrapper'>Professional Resources</a>
             </li>
           </ul>
         </div>

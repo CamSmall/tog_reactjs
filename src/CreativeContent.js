@@ -1,12 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 import enderpears from './media/images/enderpears.png';
-import enderpeardownload from './downloads/Ender Pears 1.19.zip';
-import butterdownload from "./downloads/I'm pretty sure that's just butter.zip";
+import enderpeardownload from './media/files/Ender Pears 1.19.zip';
+import butterdownload from "./media/files/I'm pretty sure that's just butter.zip";
+import jasonfunderburker from './media/images/wat_watermarked.png';
+import bird from './media/images/Bird.png';
 
 const Content = () => {
   return (
-    <div id='creative-wrapper'>
+    <div className='section-header-padding' id='creative-wrapper'>
       <div className='row'>
         <h3 className='center'>My Creative Content</h3>
         <h5 className='center'>
@@ -15,7 +17,7 @@ const Content = () => {
         </h5>
       </div>
       <div className='row'>
-        <div className='col s12 m6'>
+        <div className='col s6 m4'>
           <div className='card teal darken-4'>
             <div className='card-image'>
               <img
@@ -42,7 +44,53 @@ const Content = () => {
             </div>
           </div>
         </div>
+        <div className='col s6 m4'>
+          <div className='card teal darken-4'>
+            <div className='card-image'>
+              <img src={jasonfunderburker} alt='wat.'></img>
+            </div>
+            <div className='card-content white-text'>
+              <span className='card-title'>wat.</span>
+              <p>
+                I love <i>Over the Garden Wall</i>, and I drew this for some
+                custom mugs that my wife and I made as wedding party gifts.
+              </p>
+              <br></br>
+              <p>
+                Did you know that all frogs are actually purple but people can't
+                see it because it's a secret? That's a rock fact!
+              </p>
+            </div>
+            <div className='card-action'>
+              <a href={jasonfunderburker} download>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='col s12 m4'>
+          <div className='card teal darken-4'>
+            <div className='card-image'>
+              <img src={bird} alt='wat.'></img>
+            </div>
+            <div className='card-content white-text'>
+              <span className='card-title'>Bird?</span>
+              <p>
+                This is just a doodle I absentmindedly made that my wife really
+                liked. I printed it out on some sticker paper and it's just a
+                neat little dude :)
+              </p>
+            </div>
+            <div className='card-action'>
+              <a href={bird} download>
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div className='row'>
         <div className='col s12 m6'>
           <div className='card teal darken-4'>
             <div className='card-content white-text'>

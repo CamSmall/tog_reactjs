@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
 import CreativeContent from './CreativeContent';
+import ProfessionalContent from './ProfessionalContent';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -16,7 +18,12 @@ class App extends Component {
           <div className='section'>
             <CreativeContent />
           </div>
+          <div className='divider'></div>
+          <div className='section'>
+            <ProfessionalContent />
+          </div>
         </div>
+        <Footer />
       </div>
     );
   }
