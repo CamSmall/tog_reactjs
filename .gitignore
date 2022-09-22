@@ -22,3 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vscode/launch.json
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/tog_reactjs/FileContentIndex/01c6d978-2328-4100-ab68-1a78e5672754.vsidx
+.vs/tog_reactjs/FileContentIndex/18efd21c-5ce6-4526-be97-5b40450ed7e2.vsidx
+.vs/tog_reactjs/FileContentIndex/read.lock
+.vs/tog_reactjs/v17/.suo
