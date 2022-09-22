@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
-import logo from './media/ObsidianGrottoLogo.png';
+import logo from './media/images/ObsidianGrottoLogo.png';
 
 const MenuBar = () => {
   return (

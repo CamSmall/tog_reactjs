@@ -1,5 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
+import enderpears from './media/images/enderpears.png';
+import enderpeardownload from './downloads/Ender Pears 1.19.zip';
+import butterdownload from "./downloads/I'm pretty sure that's just butter.zip";
 
 const Content = () => {
   return (
@@ -12,12 +15,15 @@ const Content = () => {
         </h5>
       </div>
       <div className='row'>
-        <div className='col l6'>
-          <ul className='collection with-header' id='Ender Pears'>
-            <li className='collection-header'>
-              <h4>Ender Pears</h4>
-            </li>
-            <li className='collection-item'>
+        <div className='col s12 m6'>
+          <div className='card teal darken-4'>
+            <div className='card-image'>
+              <img
+                src={enderpears}
+                alt='Example of the Ender Pear resource pack.'></img>
+            </div>
+            <div className='card-content white-text'>
+              <span className='card-title'>Ender Pears</span>
               <p>
                 Ender Pears is a simple Minecraft Resource Pack that I made a
                 few years ago. TL;DR I was typing out "Ender Pearls" on a sign
@@ -28,26 +34,36 @@ const Content = () => {
                 Ender, as well as updating the names for these items too. That's
                 all!
               </p>
-            </li>
-          </ul>
+            </div>
+            <div className='card-action'>
+              <a href={enderpeardownload} download>
+                Download
+              </a>
+            </div>
+          </div>
         </div>
-        <div className='col l6'>
-          <ul className='collection with-header' id='ipstjb'>
-            <li className='collection-header'>
-              <h4>I'm pretty sure that's just butter...</h4>
-            </li>
-            <li className='collection-item'>
+
+        <div className='col s12 m6'>
+          <div className='card teal darken-4'>
+            <div className='card-content white-text'>
+              <span className='card-title'>
+                I'm pretty sure that's just butter...
+              </span>
               <p>
                 "I'm pretty sure that's just butter..." is a resource pack I've
-                wanted to make for a while and that I just recently got to
-                putting togther. All it does is update the names of various
-                items to more accurately reflect what the item is. Mojang has
-                been trying to tell us that it's actually gold ingots and armor
-                and whatnot in the game, but I'm pretty sure we all know it's
-                Butter, so why kid ourselves?
+                wanted to make for a long time now. All it does is update the
+                names of various items to more accurately reflect what the item
+                actually is. Mojang has been trying to tell us that it's
+                actually gold ingots and armor and whatnot in the game, but I'm
+                pretty sure we all know it's Butter, so why kid ourselves?
               </p>
-            </li>
-          </ul>
+            </div>
+            <div className='card-action'>
+              <a href={butterdownload} download>
+                Download
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
